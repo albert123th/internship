@@ -1,0 +1,90 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\alber\AppData\Local\Microsoft\WindowsApps;C:\Users\alber\AppData\Local\Programs\Microsoft VS Code\bin;C:\adb;C:\platform tool\platform-tools_r34.0.5-windows\platform-tools;C:\MinGW\bin;C:\Users\alber\AppData\Local\Programs\Python\Python312;C:\Users\alber\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\Java\jdk-21;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\dart-sdk\bin;dart.warnWhenEditingFilesOutsideWorkspace;C:\Program Files\PHP;C:\Appache\Apache24\bin;C:\Program Files\MongoDB\Server\7.0;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\NoteBook FanControl\;C:\Program Files (x86)\Yarn\bin\;C:\Users\alber\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\alber\scoop\shims;C:\Users\alber\AppData\Local\Microsoft\WindowsApps;C:\Users\alber\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alber\AppData\Local\Keybase\;C:\Users\alber\AppData\Roaming\npm;C:\Users\alber\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.2\bin;C:\Users\alber\AppData\Local\atom\bin;C:\Users\alber\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\alber\atom\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_INVALID_ARG_VALUE]: The property 'options.env['npm_package_description']' must be a string without null bytes. Received 'Complete Reactjs Resturant Website #\x00 \x00r\x00e\x00s\x00t\x00o\x00\r\x00 \x00'
+      at validateArgumentNullCheck (node:child_process:973:11)
+      at normalizeSpawnArguments (node:child_process:700:7)
+      at Object.spawn (node:child_process:754:13)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:25732:24
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5305:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:25729:12
+      at run (C:\Program Files (x86)\Yarn\lib\cli.js:43184:7)
+      at BlockingQueue.maybePushConcurrencyQueue (C:\Program Files (x86)\Yarn\lib\cli.js:43199:7)
+      at BlockingQueue.shift (C:\Program Files (x86)\Yarn\lib\cli.js:43194:10)
+
+npm manifest: 
+  {
+    "homepage": "https://albert123th.github.io/resto",
+    "name": "resturant-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@emotion/react": "^11.10.5",
+      "@emotion/styled": "^11.10.5",
+      "@mui/icons-material": "^5.10.16",
+      "@mui/material": "^5.10.16",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "bun": "^1.1.12",
+      "init": "^0.1.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^6.4.4",
+      "react-scripts": "5.0.1",
+      "web-vitals": "^2.1.4",
+      "yarn": "^1.22.22"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "main": "index.js",
+    "repository": "https://github.com/techinfo-youtube/Resturant-website-Reactjs-MUI.git",
+    "license": "MIT",
+    "devDependencies": {
+      "gh-pages": "^6.1.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

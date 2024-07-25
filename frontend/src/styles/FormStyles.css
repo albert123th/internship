@@ -1,0 +1,45 @@
+/* src/styles/FormStyles.css */
+.login-container, .signup-container {
+    display: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: center;
+    padding: 0 15px; /* Added padding for mobile devices */
+  }
+  
+  .login-box, .signup-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form, .signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .login-button, .signup-button {
+    margin-top: 20px;
+    background-color: #4caf50; /* Green color */
+    color: white;
+  }
+  
+  .login-button:hover, .signup-button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 600px) {
+    .login-container, .signup-container {
+      padding: 10px;
+    }
+  
+    .login-box, .signup-box {
+      padding: 15px;
+    }
+  }
+  
